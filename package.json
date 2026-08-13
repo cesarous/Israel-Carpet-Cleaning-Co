@@ -1,6 +1,6 @@
 {
   "name": "ICCS",
-  "homepage": "https://cesarous.github.io/ICCS",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
