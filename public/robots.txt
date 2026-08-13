@@ -1,3 +1,4 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Disallow:
+Sitemap: https://cesarous.github.io/Israel-Carpet-Cleaning-Co/sitemap.xml

@@ -7,7 +7,7 @@
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="Carpet cleaning and maid service across Chicago. Residential, commercial and industrial cleaning from Israel Carpet Cleaning Co. Call (773) 895-9304 for a quote."
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/favicon.ico?" />
     <!--
@@ -24,7 +24,56 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>Isreal Carpet Cleaning</title>
+    <title>Carpet Cleaning in Chicago | Israel Carpet Cleaning Co.</title>
+    <link rel="canonical" href="https://cesarous.github.io/Israel-Carpet-Cleaning-Co/" />
+    <meta property="og:title" content="Carpet Cleaning in Chicago | Israel Carpet Cleaning Co." />
+    <meta property="og:description" content="Carpet cleaning and maid service across Chicago. Residential, commercial and industrial cleaning. Call (773) 895-9304 for a quote." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://cesarous.github.io/Israel-Carpet-Cleaning-Co/" />
+    <meta property="og:image" content="https://cesarous.github.io/Israel-Carpet-Cleaning-Co/ICCS_logo.png" />
+
+    <!--
+      Local search is how a cleaning business gets found, and it runs on
+      structured data rather than page copy. Hours and a street address are
+      left out on purpose - they are not published anywhere I could confirm,
+      and inventing them would be worse than omitting them.
+    -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Israel Carpet Cleaning Co.",
+      "description": "Carpet cleaning and maid service for homes and businesses across Chicago.",
+      "url": "https://cesarous.github.io/Israel-Carpet-Cleaning-Co/",
+      "image": "https://cesarous.github.io/Israel-Carpet-Cleaning-Co/ICCS_logo.png",
+      "telephone": "+1-773-895-9304",
+      "email": "monroyisrael@yahoo.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Chicago",
+        "addressRegion": "IL",
+        "addressCountry": "US"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Chicago"
+      },
+      "sameAs": [
+        "https://www.instagram.com/israelcarpetcleaningco/",
+        "https://www.facebook.com/israelcarpetcleaning"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Cleaning services",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Residential Cleaning Services" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Commercial Cleaning Services" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Industrial Cleaning Services" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Maid Services" } }
+        ]
+      }
+    }
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
